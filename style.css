@@ -1,0 +1,74 @@
+.body{
+    /* display: flex; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+#treasure-box{
+    padding: 20px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+    background-image: linear-gradient(to right, #C04848 , #480048);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    text-shadow: 3px 3px black;
+
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-shadow: 2px 2px rgb(24, 24, 24);
+    margin-top: 20px;
+
+}
+
+#main-sec{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-style: ridge;
+    justify-content: space-evenly;
+    background-image: linear-gradient(to right, #C04848 , #480048);
+
+}
+#main-sec div{
+    border: 2px solid white;
+    padding: 40px 30px;
+    margin: 20px;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#main-sec2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid;
+    justify-content: space-evenly;
+    background-image: linear-gradient(to right, #C04848 , #480048);
+    border-style: ridge;
+
+
+}
+#main-sec2 div{
+    text-align: center;
+    border: 2px solid;
+    margin: 20px;
+    padding: 40px 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* #recipe-1{
+    background-position: center;
+
+} */
